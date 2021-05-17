@@ -1,0 +1,36 @@
+/* 尺寸 */
+@import './variables.scss';
+
+$sizing-list: 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 auto;
+
+@each $item in $sizing-list {
+	@if ($item != 'auto') {
+		.w-#{$item} {
+			width: $item * 1% !important;
+		}
+		.h-#{$item} {
+			height: $item * 1% !important;
+		}
+	} @else {
+		.w-#{$item} {
+			width: $item !important;
+		}
+		.h-#{$item} {
+			height: $item !important;
+		}
+	}
+}
+
+.vh-100 {
+	height: 100vh !important;
+}
+.vw-100 {
+	width: 100vw !important;
+}
+
+.w-100-textarea{
+	width: 100%;
+	input{
+		width: 100%;
+	}
+}

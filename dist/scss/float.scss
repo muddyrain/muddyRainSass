@@ -1,0 +1,14 @@
+/* 浮动样式表 */
+$float-direction: left right none;
+
+@each $item in $float-direction {
+	.float-#{$item} {
+		float: $item !important;
+	}
+}
+// 清除浮动
+.clearfix::after {
+	display: block;
+	clear: both;
+	content: '';
+}

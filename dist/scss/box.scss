@@ -1,0 +1,112 @@
+/* 盒模型样式表 */
+@import './variables.scss';
+// 容器盒子
+.container {
+  margin: 0 auto !important ;
+  padding: 0 15rpx !important ;
+}
+// 外边距,内边距
+$remList: 0.25rem 0.5rem 1rem 1.5rem 3rem;
+.m-0 {
+  margin: 0 !important ;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.p-0 {
+  padding: 0 !important ;
+}
+.p-auto {
+  padding: auto !important ;
+}
+.px-auto {
+  padding: 0 auto !important ;
+}
+.py-auto {
+  padding: auto 0 !important ;
+}
+.m-auto {
+  margin: auto !important ;
+}
+.mx-auto {
+  margin: 0 auto !important ;
+}
+.my-auto {
+  margin: auto 0 !important ;
+}
+@for $item from 1 through 5 {
+  .m-#{$item} {
+    margin: nth($remList, $item + 0) !important ;
+  }
+  .ml-#{$item},
+  .mx-#{$item} {
+    margin-left: nth($remList, $item + 0) !important ;
+  }
+  .mr-#{$item},
+  .mx-#{$item} {
+    margin-right: nth($remList, $item + 0) !important ;
+  }
+  .mt-#{$item},
+  .my-#{$item} {
+    margin-top: nth($remList, $item + 0) !important ;
+  }
+  .mb-#{$item},
+  .my-#{$item} {
+    margin-bottom: nth($remList, $item + 0) !important ;
+  }
+  .p-#{$item} {
+    padding: nth($remList, $item + 0) !important ;
+  }
+  .pl-#{$item},
+  .px-#{$item} {
+    padding-left: nth($remList, $item + 0) !important ;
+  }
+  .pr-#{$item},
+  .px-#{$item} {
+    padding-right: nth($remList, $item + 0) !important ;
+  }
+  .pt-#{$item},
+  .py-#{$item} {
+    padding-top: nth($remList, $item + 0) !important ;
+  }
+  .pb-#{$item},
+  .py-#{$item} {
+    padding-bottom: nth($remList, $item + 0) !important ;
+  }
+}
+// 圆角
+.rounded {
+  border-radius: 0.25rem !important;
+}
+// 溢出隐藏
+.overflow-hidden {
+  overflow: hidden !important;
+}
+.overflow-hidden-x {
+  overflow-x: hidden !important;
+}
+.overflow-hidden-y {
+  overflow-y: hidden !important;
+}
+// 圆形盒子
+@mixin circle($size: 11px, $bg: #fff) {
+  border-radius: 50% !important ;
+  width: $size !important ;
+  height: $size !important ;
+  line-height: $size !important ;
+  text-align: center !important ;
+  background: $bg !important ;
+}
+// 边框
+$border-direction: 'top' 'right' 'bottom' 'left';
+.border {
+  border: 1rpx solid $border-color !important ;
+}
+@each $item in $border-direction {
+  .border-#{$item} {
+    border-#{$item}: 1px solid $border-color !important ;
+  }
+}
+.hover-hand {
+  cursor: pointer;
+}

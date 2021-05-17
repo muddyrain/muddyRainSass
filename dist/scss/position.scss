@@ -1,0 +1,7 @@
+/* 定位样式表 */
+$position-list: 'static' 'relative' 'absolute' 'fixed' 'sticky';
+@each $item in $position-list {
+	.position-#{$item} {
+		position: $item;
+	}
+}

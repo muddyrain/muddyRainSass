@@ -1,0 +1,30 @@
+/* 变量样式 */
+
+// 颜色变量值
+$primary-color: #3d73f6;
+$primary-light-color: #3d9df6;
+$warning-color: #f4a94d;
+$danger-color: #db5049;
+$success-color: #69b169;
+$secondary-color: #6e757c;
+$light-color: #f8f9fa;
+$dark-color: #353a3f;
+$border-color: #ebebeb;
+$white-color: #ffffff;
+$black-color: #000000;
+$description-color: #848484;
+$nav-color: #3c74f6;
+// 颜色名字变量数组
+$color-name-list: "primary" "warning" "danger" "success" "secondary" "light"
+  "dark" "white" "black" "description";
+// 颜色值变量数组
+$color-var-list: $primary-color $warning-color $danger-color $success-color
+  $secondary-color $light-color $dark-color $white-color $black-color
+  $description-color;
+// 尺寸数组
+$sizing-list: 25 50 75 100;
+// 垂直对齐方式数组
+$vertical-align-list: "baseline" "top" "middle" "bottom" "text-top"
+  "text-bottom";
+// 文本对齐方式数组
+$text-align-list: "justify" "left" "center" "right";

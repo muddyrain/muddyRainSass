@@ -1,0 +1,15 @@
+/* 对齐方式 */
+@import './variables.scss';
+
+// 垂直对齐
+@each $item in $vertical-align-list {
+    .align-#{$item}{
+       vertical-align: #{$item} !important;
+    }
+}
+// 文本对齐
+@each $item in $text-align-list {
+    .text-#{$item}{
+       text-align: #{$item} !important;
+    }
+}

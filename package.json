@@ -1,0 +1,22 @@
+{
+  "name": "muddy-rain-sass",
+  "version": "1.0.0",
+  "description": "A style package developed by muddyrain",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com.cnpmjs.org/qiu3291002845/muddyRainSass.git"
+  },
+  "keywords": [
+    "muddyRainSass",
+    "scss",
+    "style",
+    "css-style"
+  ],
+  "author": "muddyrain",
+  "license": "ISC",
+  "dependencies": {}
+}
