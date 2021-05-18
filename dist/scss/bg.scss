@@ -1,13 +1,13 @@
 /* 背景样式表 */
-@import  "./variables.scss";
+@import "./variables.scss";
 /* 文本颜色 */
 @mixin bg-color() {
-	@each $item in $color-name-list {
-		$i: index($color-name-list, $item);
-		.bg-#{$item} {
-			background-color: nth($color-var-list, $i);
-		}
-	}
+  @each $item in $color-name-list {
+    $i: index($color-name-list, $item);
+    .bg-#{$item} {
+      background-color: nth($color-var-list, $i) !important;
+    }
+  }
 }
 
-@include bg-color()
+@include bg-color();
