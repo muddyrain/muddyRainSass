@@ -1,5 +1,6 @@
 # muddyRainSass
-——由Muddyrain开发的样式包
+
+——由 Muddyrain 开发的样式包
 
 如何引入样式包：
 
@@ -7,7 +8,7 @@
 import "muddy-rain-sass/dist/app.scss";
 ```
 
-目录介绍  dist :
+目录介绍 dist :
 
 ```js
 align.scss —— 对齐方式样式
@@ -25,5 +26,10 @@ sizing.scss -- 尺寸样式
 text.scss -- 文本样式
 transition.scss -- 过渡样式 -》 可以加载过渡组件
 variables.scss -- 变量样式
+border.scss -- 边框样式
+button.scss -- 按钮样式
+overflow.scss -- 溢出样式
+table.scss -- 边框样式
+input.scss -- 输入框样式
+image.scss -- 图片样式
 ```
-
