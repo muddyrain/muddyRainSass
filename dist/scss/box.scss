@@ -1,5 +1,5 @@
 /* 盒模型样式表 */
-@import './variables.scss';
+@import "./variables.scss";
 // 容器盒子
 .container {
   margin: 0 auto !important ;
@@ -98,7 +98,7 @@ $remList: 0.25rem 0.5rem 1rem 1.5rem 3rem;
   background: $bg !important ;
 }
 // 边框
-$border-direction: 'top' 'right' 'bottom' 'left';
+$border-direction: "top" "right" "bottom" "left";
 .border {
   border: 1rpx solid $border-color !important ;
 }
