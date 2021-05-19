@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* 常用文本类型的样式表 */
+/* 变量样式 */
+/* 文本颜色 */
+.text-primary {
+  color: #3d73f6;
+  text-align: center;
+}
+
+.text-warning {
+  color: #f4a94d;
+  text-align: center;
+}
+
+.text-danger {
+  color: #db5049;
+  text-align: center;
+}
+
+.text-success {
+  color: #69b169;
+  text-align: center;
+}
+
+.text-secondary {
+  color: #6e757c;
+  text-align: center;
+}
+
+.text-light {
+  color: #f8f9fa;
+  text-align: center;
+}
+
+.text-dark {
+  color: #353a3f;
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+  text-align: center;
+}
+
+.text-black {
+  color: #000000;
+  text-align: center;
+}
+
+.text-description {
+  color: #848484;
+  text-align: center;
+}
+
+/*文本格式化，超出范围，显示省略号*/
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-weight {
+  font-weight: bold !important;
+}
+
+.text-weight-500 {
+  font-weight: 500 !important;
+}
+
+.text-weight-600 {
+  font-weight: 600 !important;
+}
+
+.text-weight-normal {
+  font-weight: normal !important;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/*# sourceMappingURL=text.css.map */

@@ -1,0 +1,66 @@
+form {
+  display: block;
+  margin-top: 0em;
+  box-sizing: border-box;
+}
+.form-group {
+  margin-bottom: 1rem;
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    &.form-control {
+      option {
+        font-weight: normal;
+        display: block;
+        white-space: nowrap;
+        min-height: 1.2em;
+        padding: 0px 2px 1px;
+      }
+    }
+    &textarea {
+      overflow: auto;
+      resize: vertical;
+    }
+    &.form-control-lg {
+      height: calc(1.5em + 1rem + 2px);
+      padding: 0.5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border-radius: 0.3rem;
+    }
+    &.form-control-sm {
+      height: calc(1.5em + 0.5rem + 2px);
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      border-radius: 0.2rem;
+    }
+    &:disabled,
+    &[readonly] {
+      background-color: #e9ecef;
+      opacity: 1;
+    }
+  }
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+  }
+  .form-text {
+    display: block;
+    margin-top: 0.25rem;
+  }
+}

@@ -1,0 +1,25 @@
+.overflow-auto {
+  overflow: auto !important;
+}
+
+.overflow-hidden-x {
+  overflow-x: hidden !important;
+}
+
+.overflow-hidden-y {
+  overflow-y: hidden !important;
+}
+
+.overflow-scoll-x {
+  overflow-x: scroll !important;
+}
+
+.overflow-scoll-y {
+  overflow-y: scroll !important;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+/*# sourceMappingURL=overflow.css.map */

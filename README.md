@@ -5,12 +5,8 @@
 如何引入样式包：
 
 ```js
-// scss文件 引入方式
-import "muddy-rain-sass/dist/app.scss";
-// css 文件引入
-import "muddy-rain-sass/dist/app.css";
-// css压缩文件
-import "muddy-rain-sass/dist/app.css.map";
+// 引入文件
+import "muddy-rain-sass";
 ```
 
 目录介绍 dist :
