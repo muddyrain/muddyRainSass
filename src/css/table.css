@@ -1,0 +1,38 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+  display: table;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+.table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  box-sizing: border-box;
+}
+
+.table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  box-sizing: border-box;
+}
+
+.table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table.table-bordered td,
+.table.table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+/*# sourceMappingURL=table.css.map */

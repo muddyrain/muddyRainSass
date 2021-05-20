@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 背景样式表 */
+/* 变量样式 */
+/* 文本颜色 */
+.bg-primary {
+  background-color: #3d73f6 !important;
+}
+
+.bg-warning {
+  background-color: #f4a94d !important;
+}
+
+.bg-danger {
+  background-color: #db5049 !important;
+}
+
+.bg-success {
+  background-color: #69b169 !important;
+}
+
+.bg-secondary {
+  background-color: #6e757c !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+  background-color: #353a3f !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+.bg-description {
+  background-color: #848484 !important;
+}
+
+/*# sourceMappingURL=bg.css.map */
