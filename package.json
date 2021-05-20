@@ -1,11 +1,12 @@
 {
   "name": "muddy-rain-sass",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A style package developed by muddyrain",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch ./src/scss:./src/css",
+    "font-sass": "sass --watch ./src/font:./src/font",
     "app-sass": "sass --watch ./src/app.scss:./src/app.css"
   },
   "repository": {
