@@ -9,7 +9,13 @@
 import "muddy-rain-sass";
 ```
 
-目录介绍 dist :
+> 1.0.9 版本 —— 新增 icon 图标 (内置字体图标)
+
+##### 操作详情 :
+
+http://www.muddyrain.com/muddyIcon/
+
+##### 目录介绍 :
 
 ```js
 align.scss —— 对齐方式样式

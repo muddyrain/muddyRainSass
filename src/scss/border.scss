@@ -56,3 +56,7 @@
     border-color: nth($color-var-list, $i) !important;
   }
 }
+// 纯圆
+.radio-50 {
+  border-radius: 50% !important;
+}
