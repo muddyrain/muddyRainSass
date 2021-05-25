@@ -2,7 +2,7 @@
 @font-face {
   font-family: "muddyIcon";
   /* Project id 2559662 */
-  src: url("./muddyIcon.woff2?t=1621476287600") format("woff2"), url("./muddyIcon.woff?t=1621476287600") format("woff"), url("./muddyIcon.ttf?t=1621476287600") format("truetype");
+  src: url("muddyIcon.woff2?t=1621906852370") format("woff2"), url("muddyIcon.woff?t=1621906852370") format("woff"), url("muddyIcon.ttf?t=1621906852370") format("truetype");
 }
 .muddyIcon {
   font-family: "muddyIcon" !important;
@@ -10,6 +10,326 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-social_linkedin-copy:before {
+  content: "";
+}
+
+.icon-view:before {
+  content: "";
+}
+
+.icon-view_off:before {
+  content: "";
+}
+
+.icon-message:before {
+  content: "";
+}
+
+.icon-message_unread:before {
+  content: "";
+}
+
+.icon-record:before {
+  content: "";
+}
+
+.icon-time-lock:before {
+  content: "";
+}
+
+.icon-credits:before {
+  content: "";
+}
+
+.icon-renew:before {
+  content: "";
+}
+
+.icon-order:before {
+  content: "";
+}
+
+.icon-order_unread:before {
+  content: "";
+}
+
+.icon-cart_empty:before {
+  content: "";
+}
+
+.icon-cart:before {
+  content: "";
+}
+
+.icon-edit_pen:before {
+  content: "";
+}
+
+.icon-share_link:before {
+  content: "";
+}
+
+.icon-share_more:before {
+  content: "";
+}
+
+.icon-setting_screw:before {
+  content: "";
+}
+
+.icon-upload_up:before {
+  content: "";
+}
+
+.icon-download_down:before {
+  content: "";
+}
+
+.icon-play_round:before {
+  content: "";
+}
+
+.icon-location_region:before {
+  content: "";
+}
+
+.icon-discount_round:before {
+  content: "";
+}
+
+.icon-notification_bells:before {
+  content: "";
+}
+
+.icon-notification_bells_off:before {
+  content: "";
+}
+
+.icon-phonecall:before {
+  content: "";
+}
+
+.icon-phonecall_off:before {
+  content: "";
+}
+
+.icon-lock_up:before {
+  content: "";
+}
+
+.icon-unlock_up:before {
+  content: "";
+}
+
+.icon-ET:before {
+  content: "";
+}
+
+.icon-flow:before {
+  content: "";
+}
+
+.icon-setting_filter:before {
+  content: "";
+}
+
+.icon-calculator:before {
+  content: "";
+}
+
+.icon-image:before {
+  content: "";
+}
+
+.icon-e-mail:before {
+  content: "";
+}
+
+.icon-copy_file:before {
+  content: "";
+}
+
+.icon-username:before {
+  content: "";
+}
+
+.icon-customer_service:before {
+  content: "";
+}
+
+.icon-sub_account:before {
+  content: "";
+}
+
+.icon-partner:before {
+  content: "";
+}
+
+.icon-list:before {
+  content: "";
+}
+
+.icon-international:before {
+  content: "";
+}
+
+.icon-close_filled:before {
+  content: "";
+}
+
+.icon-check:before {
+  content: "";
+}
+
+.icon-close_round:before {
+  content: "";
+}
+
+.icon-check_filled:before {
+  content: "";
+}
+
+.icon-forbidden:before {
+  content: "";
+}
+
+.icon-forbidden_filled:before {
+  content: "";
+}
+
+.icon-info_filled:before {
+  content: "";
+}
+
+.icon-info_round:before {
+  content: "";
+}
+
+.icon-help_filled:before {
+  content: "";
+}
+
+.icon-help_round:before {
+  content: "";
+}
+
+.icon-caution:before {
+  content: "";
+}
+
+.icon-caution_filled:before {
+  content: "";
+}
+
+.icon-like:before {
+  content: "";
+}
+
+.icon-like_filled:before {
+  content: "";
+}
+
+.icon-star:before {
+  content: "";
+}
+
+.icon-star_filled:before {
+  content: "";
+}
+
+.icon-arrow_up:before {
+  content: "";
+}
+
+.icon-arrow_left:before {
+  content: "";
+}
+
+.icon-arrow_down:before {
+  content: "";
+}
+
+.icon-arrow_right:before {
+  content: "";
+}
+
+.icon-social_fb:before {
+  content: "";
+}
+
+.icon-social_linkedin:before {
+  content: "";
+}
+
+.icon-social_sina:before {
+  content: "";
+}
+
+.icon-social_google:before {
+  content: "";
+}
+
+.icon-social_naver:before {
+  content: "";
+}
+
+.icon-social_stackflow:before {
+  content: "";
+}
+
+.icon-social_youtube:before {
+  content: "";
+}
+
+.icon-social_github:before {
+  content: "";
+}
+
+.icon-social_twitter:before {
+  content: "";
+}
+
+.icon-applets:before {
+  content: "";
+}
+
+.icon-social_wechat:before {
+  content: "";
+}
+
+.icon-social_server_fault:before {
+  content: "";
+}
+
+.icon-balance:before {
+  content: "";
+}
+
+.icon-go_to_link:before {
+  content: "";
+}
+
+.icon-benefits:before {
+  content: "";
+}
+
+.icon-dingtalk:before {
+  content: "";
+}
+
+.icon-alipay:before {
+  content: "";
+}
+
+.icon-taobao:before {
+  content: "";
+}
+
+.icon-icon-test85:before {
+  content: "";
 }
 
 .icon-arrow-right-bold:before {
