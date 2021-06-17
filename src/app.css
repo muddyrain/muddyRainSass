@@ -1036,6 +1036,27 @@ html {
   position: absolute;
 }
 
+/* 定位样式表 */
+.position-static {
+  position: "static";
+}
+
+.position-relative {
+  position: "relative";
+}
+
+.position-absolute {
+  position: "absolute";
+}
+
+.position-fixed {
+  position: "fixed";
+}
+
+.position-sticky {
+  position: "sticky";
+}
+
 /*在Chrome下移除input[number]的上下箭头*/
 .no-number::-webkit-outer-spin-button,
 .no-number::-webkit-inner-spin-button {
