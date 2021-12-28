@@ -1,23 +1,23 @@
 @charset "UTF-8";
 /* 定位样式表 */
 .position-static {
-  position: "static";
+  position: static;
 }
 
 .position-relative {
-  position: "relative";
+  position: relative;
 }
 
 .position-absolute {
-  position: "absolute";
+  position: absolute;
 }
 
 .position-fixed {
-  position: "fixed";
+  position: fixed;
 }
 
 .position-sticky {
-  position: "sticky";
+  position: sticky;
 }
 
 /*# sourceMappingURL=position.css.map */

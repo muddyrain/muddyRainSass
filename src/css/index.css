@@ -100,9 +100,7 @@ div:focus {
   height: 0;
 }
 
-.app-container {
-  padding: 20px;
-}
+
 
 .hover-hand {
   cursor: pointer;

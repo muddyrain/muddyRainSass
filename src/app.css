@@ -169,6 +169,27 @@ html {
 }
 
 /*文本格式化，超出范围，显示省略号*/
+.text-ellipsis-1 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.text-ellipsis-2 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.text-ellipsis-3 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
 .text-wrap {
   white-space: normal !important;
 }
@@ -367,11 +388,6 @@ html {
 
 /* 盒模型样式表 */
 /* 变量样式 */
-.container {
-  margin: 0 auto !important;
-  padding: 0 15rpx !important;
-}
-
 .m-0 {
   margin: 0 !important;
 }
@@ -1038,23 +1054,23 @@ html {
 
 /* 定位样式表 */
 .position-static {
-  position: "static";
+  position: static;
 }
 
 .position-relative {
-  position: "relative";
+  position: relative;
 }
 
 .position-absolute {
-  position: "absolute";
+  position: absolute;
 }
 
 .position-fixed {
-  position: "fixed";
+  position: fixed;
 }
 
 .position-sticky {
-  position: "sticky";
+  position: sticky;
 }
 
 /*在Chrome下移除input[number]的上下箭头*/
@@ -1677,10 +1693,6 @@ div:focus {
   content: " ";
   clear: both;
   height: 0;
-}
-
-.app-container {
-  padding: 20px;
 }
 
 .hover-hand {

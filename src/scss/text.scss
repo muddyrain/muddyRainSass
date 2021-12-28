@@ -1,47 +1,59 @@
 /* 常用文本类型的样式表 */
-@import "./variables.scss";
+
+@import './variables.scss';
+
 /* 文本颜色 */
+
 @each $item in $color-name-list {
-  $i: index($color-name-list, $item);
-  .text-#{$item} {
-    color: nth($color-var-list, $i);
-    text-align: center;
-  }
+    $i: index($color-name-list, $item);
+    .text-#{$item} {
+        color: nth($color-var-list, $i);
+        text-align: center;
+    }
 }
 
+
 /*文本格式化，超出范围，显示省略号*/
-@mixin text-overflow($line: 1) {
-  display: -webkit-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  white-space: normal !important;
-  -webkit-line-clamp: $line;
-  -webkit-box-orient: vertical;
+
+$textList: 1 2 3;
+@each $item in $textList {
+    .text-ellipsis-#{$item} {
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $item;
+        display: -webkit-box;
+        overflow: hidden;
+    }
 }
+
 .text-wrap {
-  white-space: normal !important;
+    white-space: normal !important;
 }
+
 .text-nowrap {
-  white-space: nowrap !important;
+    white-space: nowrap !important;
 }
+
 .text-weight {
-  font-weight: bold !important;
+    font-weight: bold !important;
 }
+
 .text-weight-500 {
-  font-weight: 500 !important;
+    font-weight: 500 !important;
 }
+
 .text-weight-600 {
-  font-weight: 600 !important;
+    font-weight: 600 !important;
 }
+
 .text-weight-normal {
-  font-weight: normal !important;
+    font-weight: normal !important;
 }
+
 // 图片替换-文字隐藏
 .text-hide {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
 }

@@ -1,25 +1,25 @@
 {
-  "name": "muddy-rain-sass",
-  "version": "1.1.2",
-  "description": "A style package developed by muddyrain",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./src/scss:./src/css",
-    "font-sass": "sass --watch ./src/font:./src/font",
-    "app-sass": "sass --watch ./src/app.scss:./src/app.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com.cnpmjs.org/qiu3291002845/muddyRainSass.git"
-  },
-  "keywords": [
-    "muddyRainSass",
-    "scss",
-    "style",
-    "css-style"
-  ],
-  "author": "muddyrain",
-  "license": "ISC",
-  "dependencies": {}
+    "name": "muddy-rain-sass",
+    "version": "1.1.3",
+    "description": "A style package developed by muddyrain",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --watch ./src/scss:./src/css",
+        "font-sass": "sass --watch ./src/font:./src/font",
+        "app-sass": "sass --watch ./src/app.scss:./src/app.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com.cnpmjs.org/qiu3291002845/muddyRainSass.git"
+    },
+    "keywords": [
+        "muddyRainSass",
+        "scss",
+        "style",
+        "css-style"
+    ],
+    "author": "muddyrain",
+    "license": "ISC",
+    "dependencies": {}
 }

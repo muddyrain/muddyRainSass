@@ -1,10 +1,6 @@
 /* 盒模型样式表 */
 @import "./variables.scss";
-// 容器盒子
-.container {
-  margin: 0 auto !important ;
-  padding: 0 15rpx !important ;
-}
+
 // 外边距,内边距
 $remList: 0.25rem 0.5rem 1rem 1.5rem 3rem;
 .m-0 {

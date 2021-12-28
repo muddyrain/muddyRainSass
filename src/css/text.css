@@ -53,6 +53,27 @@
 }
 
 /*文本格式化，超出范围，显示省略号*/
+.text-ellipsis-1 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.text-ellipsis-2 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.text-ellipsis-3 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
 .text-wrap {
   white-space: normal !important;
 }
