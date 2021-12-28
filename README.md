@@ -9,12 +9,6 @@
 import "muddy-rain-sass";
 ```
 
-> 1.1.0 版本 —— 新增 icon 图标 (内置字体图标)
-
-##### 操作详情 :
-
-http://www.muddyrain.com/muddyIcon/
-
 ##### 目录介绍 :
 
 ```js
